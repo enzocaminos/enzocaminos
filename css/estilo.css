@@ -1,0 +1,511 @@
+
+
+/*header*/
+#header {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.22);
+    z-index: 2;
+    background-color: #73afde;
+}
+
+#back-photo {
+  position: absolute;
+  background-color: #f71374;
+  height: 100%;
+  width: 0px;
+  -webkit-transition: all 1s cubic-bezier(0.74, 0.37, 0.54, 1.38);
+  -moz-transition: all 1s cubic-bezier(0.74, 0.37, 0.54, 1.38);
+  -o-transition: all 1s cubic-bezier(0.74, 0.37, 0.54, 1.38);
+  transition: all 1s cubic-bezier(0.74, 0.37, 0.54, 1.38);
+}
+#foto {
+    width: 80px;
+    border-radius: 50%;
+    top: 250px;
+    -webkit-transition: all 1s cubic-bezier(1, -0.59, 0, 1.24);
+    -moz-transition: all 1s cubic-bezier(1, -0.59, 0, 1.24);
+    -o-transition: all 1s cubic-bezier(1, -0.59, 0, 1.24);
+    transition: all 1s cubic-bezier(1, -0.59, 0, 1.24);
+    z-index: 2000;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+nav > ul {
+    margin: 0;
+    display: block;
+    padding-left: 0px;
+    transition: all 1s cubic-bezier(1, 0.58, 0.54, 1.33);
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a:hover {
+  text-decoration: none;
+}
+nav > ul > li > a {
+  display: block;
+  padding: 10px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 350px) {
+  nav > ul > li > a {
+    padding: 6px 0px 6px 8px;
+    font-size: 12px;
+  }
+}
+/* END header*/
+
+/* About */
+#brand-place {
+  margin-top: 80px;
+  text-align: center;
+}
+
+#brand-place > img {
+    width: 100px;
+    margin-right: 14px;
+}
+
+#brand-place > h1, span {
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    padding: 6px 0px 8px 8px;
+    font-family: 'Open Sans', sans-serif;
+}
+#brand-place > h1 {
+    border-right: 1px solid rgba(255, 255, 255, 0.61);
+    padding-right: 16px;
+    margin: 0;
+}
+#brand-place > span {
+    padding-left: 12px;
+}
+#eslogan {
+    border-radius: 6px;
+    color: #99beda;
+    width: auto;
+    display: table;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-;
+    font-weight: 300;
+}
+
+#character {
+  margin-top: -60px;
+}
+
+#about {
+	background: -moz-linear-gradient(top,  #366b93 0%, #3f7fb1 66%); 
+	background: -webkit-linear-gradient(top,  #366b93 0%,#3f7fb1 66%); 
+	background: linear-gradient(to bottom,  #366b93 0%,#3f7fb1 66%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#366b93', endColorstr='#3f7fb1',GradientType=0 );
+  box-shadow: inset 0 -6px 25px -9px rgba(0, 0, 0, 0.86);
+	margin-bottom: 3px;
+  height: 350px;
+}
+
+.works-tittle {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0px 10px 10px 0;
+    margin: 0 0 12px 0;
+    width: 290px;
+}
+/* END About */
+
+#ux {
+    z-index: -1;
+    width: 150px;
+    margin-top: 76px;
+    margin-bottom: -190px;
+    box-shadow: -16px 16px 10px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+
+}
+
+@media screen and (min-width: 768px) {
+  #ux {
+      width: 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #ux {
+      width: 250px;
+  }
+}
+
+
+
+#footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 -10px 70px rgb(181, 181, 181);
+}
+
+#footer img {
+	float: right;
+	width: 70px;
+}
+
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
+/* We Make */
+#work {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#81cae3+14,edecd1+98 */
+  background: #81cae3; /* Old browsers */
+  background: -moz-linear-gradient(left,  #81cae3 14%, #edecd1 98%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #81cae3 14%,#edecd1 98%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #81cae3 14%,#edecd1 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81cae3', endColorstr='#edecd1',GradientType=1 ); /* IE6-9 */
+  padding-top: 300px;
+  box-shadow: inset 0 20px 19px -20px rgba(0, 0, 0, 0.28);
+  padding: 350px 15px 100px 15px;
+
+}
+.value-icon {
+  width: 46px;
+  height: 46px;
+}
+.card-work {
+    box-shadow: 10px 0px 20px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+}
+.work-desc {
+  padding-left: 14px;
+}
+.work-desc > ul {
+  padding-top: 20px;
+  margin: 0;
+}
+.work-tittle {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0px 10px 10px 0;
+    margin: 0 0 12px 0;
+}
+.desc-text {
+    font-weight: 300;
+    line-height: 15px;
+}
+.work-desc > ul > li {
+    background-color: #ffd300;
+    display: table;
+    padding: 3px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    color: #a07700;
+    padding-right: 20px;
+}
+/* END We Make */
+
+
+
+/* Program Cards*/
+.program-cards {
+    padding: 40px 6% 20px 6%;
+}
+@media only screen and (max-width: 768px) {
+  .program-cards {
+      max-width: 600px;
+  }
+}
+.cont-program {
+    padding: 20px;
+    background-color: #333333;
+    margin: 3px;
+    border-radius: 10px 10px 0 0;
+}
+.title-card {
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.32);
+    margin: 16px 10px 10px 10px;
+    padding-bottom: 14px;
+}
+.card-desc {
+  padding: 8px;
+}
+.card-img {
+  width: 40%;
+}
+/* END Program Cards*/
+
+
+
+/* Last proyect*/
+#last-work {
+    background-color: #3daef4;
+    padding-bottom: 50px;
+}
+#last-work-2 {
+    background-color: #e74e37;
+    padding-bottom: 50px;
+}
+.section-card {
+    background-color: #333333;
+    color: #dbdbdb;
+    font-size: 12px;
+    margin: 0 0 20px 0;
+    padding: 20px;
+    border-radius: 0 0 10px 0;
+}
+.last-work-brand {
+  width: 30%;
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 768px) {
+  nav > ul > li > a {
+    padding: 12px 0px 12px 8px;
+    font-size: 12px;
+  }
+  .last-work-brand {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+.video {
+    border-radius: 6px;
+    box-shadow: -6px 6px 6px 2px rgba(0, 0, 0, 0.19);
+    margin: 16px 0 40px 0;
+}
+.view-m {
+    padding: 6px 4px 4px 8px;
+    border: 1px solid rgba(255, 255, 255, 0.54);
+    border-radius: 4px 4px 0 0;
+    width: 118px;
+}
+.view-m > img , .view-d > img {
+    height: 30px;
+}
+
+.view-d {
+    padding: 6px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.54);
+    border-radius: 4px 4px 0 0;
+    width: 186px;
+}
+
+.ux-case-m {
+    background: rgba(0, 0, 0, 0.16);
+    padding: 2px 16px;
+    border-radius: 0px 0 6px 6px;
+    font-size: 10px;
+    width: 118px;
+    text-align: center;
+    display: block;
+}
+.ux-case-d {
+    background: rgba(0, 0, 0, 0.16);
+    padding: 2px 16px;
+    border-radius: 0px 0 6px 6px;
+    font-size: 10px;
+    width: 186px;
+    text-align: center;
+    display: block;
+}
+
+/* END Last proyect*/
+
+
+
+/* Tools */
+.tool-card {
+    color: #5d3867;
+    text-align: center;
+    padding: 20px;
+    display: table;
+    font-size: 26px;
+    line-height: 25px;
+    background: #ffd300;
+    margin-top: -30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+#dev-tools {
+    background: white;
+    padding-bottom: 20px;
+}
+
+#dev-tools > .section-card {
+  margin-left: -15px;
+}
+#design-tools {
+    background: white;
+    padding-bottom: 20px;
+}
+#design-tools > .section-card {
+  margin-left: -15px;
+}
+#cont-plataform {
+    padding: 30px 0 20px 0;
+    border-top: 1px solid rgba(128, 128, 128, 0.38);
+    margin-top: 40px;
+}
+.plataform-tittle {
+    color: rgb(255, 202, 0);
+    font-weight: 300;
+    text-align: right;
+    font-size: 20px;
+    line-height: 16px;
+    padding-right: 16px;
+}
+
+.cont-tool {
+  display: inline-block;
+}
+.tool-tittle {
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    color: #8c8c8c;
+    font-weight: 300;
+}
+.tool-img {
+  width: 100px;
+  height: 120px;
+}
+/* END Tools */
+
+
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+
+
+/* contacto */
+#contacto {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#81cae3+14,edecd1+98 */
+    background: #81cae3; /* Old browsers */
+    background: -moz-linear-gradient(left,  #81cae3 14%, #edecd1 98%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #81cae3 14%,#edecd1 98%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #81cae3 14%,#edecd1 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81cae3', endColorstr='#edecd1',GradientType=1 ); /* IE6-9 */
+    padding: 80px 0;
+}
+#contacto > .container > .col-sm-6 {
+  padding: 10px;
+}
+#contacto > h1 {
+  text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #616161;
+    font-weight: 300;
+}
+form {
+  max-width: 700px;
+  text-align: center;
+}
+input, textarea {
+  border:0; outline:0;
+  padding: 1em;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  font-family: 'Merriweather', sans-serif;
+  resize: none;
+  border-radius: 6px;
+}
+
+#input-submit {
+  color: white; 
+  cursor: pointer;
+  background-color: #333333;
+  margin: 0;
+}
+#input-submit:hover {
+  background-color: #e8274b;
+  transition: all 0.3s;
+}
+#cont-submit {
+  padding: 10px;
+}
+textarea {
+  height: 172px;
+}
+
+@media screen and (max-width: 768px) {
+  form {
+    max-width: 350px;
+    text-align: center;
+  }
+  textarea {
+    height: 200px;
+  }
+}
+/* END Contacto */
+
+/* General rules*/
+.top-shadow {
+  box-shadow: inset 0 20px 16px -20px rgba(0, 0, 0, 0.53)
+}
+
+
+.brand-item {
+  padding: 10px;
+}
+
+.cont-article {
+  padding: 20px;
+  background-color: #efefef;
+  border-radius: 6px;
+}
+
+.brand-image {
+}
+
+#brand-case {
+  padding-bottom: 60px;
+}
+
+.brand-name {
+}
+
+.brand-desc {
+  color: grey;
+}
+
+@media screen and (max-width: 480px) {
+  .brand-item {
+      padding: 0 2px 4px 2px;
+  }
+  .cont-article {
+      padding: 10px;
+  }
+  .brand-desc {
+      font-size: 11px;
+  }
+}
